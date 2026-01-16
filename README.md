@@ -5,4 +5,4 @@ Its literally made out of curiousity and a bit of problem, i was learning python
 # Where can i visit the RNG?
 https://ketuahutan.github.io/Anime-RNG/
 
-Farewell...sitmumicc
+Farewell...situmicc
