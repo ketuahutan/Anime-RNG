@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="profile">
+        <img src="aoi-mukou.jpeg" alt="Profile Picture">
+        <h3>Made by <a href="https://github.com/ketuahutan">ketuahutan</a></h3>
+    </div>    
+    <h1>Random Anime Character Generator</h1>
+    <p>This webpage randomly selects an anime character for you!</p>
+
+    <button onclick="roll_character()">Roll</button>
+    <p id="result">Click Roll to get a character!</p>
+
+    <script>
+function roll_character() {
+    const characters = [
+  "Asuna",
+  "Mikasa",
+  "Rem",
+  "Emilia",
+  "Zero Two",
+  "Hinata",
+  "Sakura",
+  "Nezuko",
+  "Nami",
+  "Robin",
+  "Yor",
+  "Makima",
+  "Power",
+  "Lucy",
+  "Erza",
+  "Leviya",
+  "Rias",
+  "Akeno",
+  "Kurisu",
+  "Mai",
+  "Nino",
+  "Miku",
+  "Ichika",
+  "Yotsuba",
+  "Itsuki",
+  "Violet",
+  "Saber",
+  "Rin",
+  "Maki",
+  "Aqua",
+  "Megumin",
+  "Darkness",
+  "Chisaki",
+  "Himiko",
+  "Ochaco",
+  "Tsuyu",
+  "Nobara",
+  "Misa",
+  "Kaguya",
+  "Chika",
+  "Ai",
+  "Kana",
+  "Akane",
+  "Haruhi",
+  "Yuki",
+  "Misaki",
+  "Rei",
+  "Asuka",
+  "Shinobu",
+  "Mitsuri",
+  "Kanao",
+  "Akame",
+  "Esdeath",
+  "Chelsea",
+  "Yuno",
+  "Lucy Heartfilia",
+  "Mirajane",
+  "Juvia",
+  "Boa Hancock",
+  "Vivi",
+  "Nico Robin",
+  "Shanksa",
+  "Rebecca",
+  "Noelle",
+  "Vanessa",
+  "Charmy",
+  "Namiya",
+  "Fubuki",
+  "Tatsumaki",
+  "Maki Oze",
+  "Tamaki",
+  "Iroha",
+  "Yui",
+  "Azusa",
+  "Hestia",
+  "Freya",
+  "Ryuko",
+  "Satsuki",
+  "Tohru",
+  "Kanna",
+  "Elma",
+  "Illya",
+  "Mash",
+  "Medusa",
+  "Ereshkigal",
+  "Ishtar",
+  "Albedo",
+  "Shalltear",
+  "Yukino",
+  "Roxy",
+  "Eris",
+  "Sylphiette",
+  "Frieren"
+];
+    const randomIndex = Math.floor(Math.random() * characters.length);
+    const result = characters[randomIndex];
+    document.getElementById("result").innerText = "You got: " + result + "!";
+    console.log("Selected: " + result);
+}
+    </script>
+</body>
+</html>

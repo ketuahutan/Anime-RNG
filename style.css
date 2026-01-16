@@ -1,0 +1,73 @@
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid pink;
+}
+
+.profile h3 {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #eaeaea;
+}
+
+body {
+    min-height: 100vh;
+  background: radial-gradient(circle at bottom, pink, #000);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  color: #eaeaea;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+button {
+  background: pink;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 20px 0;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #ff69b4;
+}
+
+.profile h3 a {
+  color: pink;
+  text-decoration: none;
+}
+
+.profile h3 a:hover {
+  color: #ff69b4;
+  text-decoration: underline;
+}
